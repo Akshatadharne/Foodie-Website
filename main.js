@@ -42,7 +42,7 @@ const updateCart = () => {
     cartItem.classList.add('item');
     cartItem.innerHTML = `
       <div class="item-image">
-        <img src="images1/${item.image}">
+        <img src="${item.image}">
       </div>
       <div>
         <h4>${item.name}</h4>
@@ -96,7 +96,7 @@ const showCards = () => {
     orderCard.classList.add('order-card');
     orderCard.innerHTML = `
       <div class="card-image">
-        <img src="images1/${product.image}">
+        <img src="${product.image}">
       </div>
       <h4>${product.name}</h4>
       <h4 class="price">$${product.price}</h4>
